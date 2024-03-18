@@ -29,7 +29,7 @@ GET /get_csrf_token/
   "date": "2024-03-20",
   "time": "10:00:00",
   "message": "Don't forget the meeting!",
-  "reminder_method": "Email"
+  "reminder_type": "Email"
 }
 
 #### Example Response (Success)
