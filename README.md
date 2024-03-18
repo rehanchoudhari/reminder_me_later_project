@@ -16,7 +16,7 @@ GET /get_csrf_token/
 
 #### Example Response
 {
-  "csrf_token": "ABCD1234EFGH5678IJKL90MNOP"
+  "X-CSRFToken": "ABCD1234EFGH5678IJKL90MNOP"
 }
 
 ## Create Reminder
