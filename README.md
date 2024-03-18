@@ -44,18 +44,18 @@ GET /get_csrf_token/
 
 ## Setup
 
-1.Clone the repository to your local machine.
-2.Install Python and Django if not already installed.
-3.Create a virtual environment and activate it.
-4.Install the required dependencies using pip install -r requirements.txt.
-5.Run the Django development server using python manage.py runserver.
+- Clone the repository to your local machine.
+- Install Python and Django if not already installed.
+- Create a virtual environment and activate it.
+- Install the required dependencies using pip install -r requirements.txt.
+- Run the Django development server using python manage.py runserver.
 
 ## Usage
 
-1.Send a GET request to the /api/get_csrf_token/ endpoint to obtain the CSRF token.
-2.Use the obtained CSRF token in the request headers for POST requests to other endpoints like /api/create_reminder/.
-3.Send a POST request to the /api/create_reminder/ endpoint with the required data as JSON in the request body.
-4.Receive a response indicating the success or failure of the reminder creation.
+- Send a GET request to the /api/get_csrf_token/ endpoint to obtain the CSRF token.
+- Use the obtained CSRF token in the request headers for POST requests to other endpoints like /api/create_reminder/.
+- Send a POST request to the /api/create_reminder/ endpoint with the required data as JSON in the request body.
+- Receive a response indicating the success or failure of the reminder creation.
   
 
 
